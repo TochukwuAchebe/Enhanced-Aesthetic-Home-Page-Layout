@@ -19,7 +19,7 @@ export function LearnWithTochii() {
             </p>
           </div>
           <div className="bg-[#002147] text-[#f5e7c8] p-8 rounded-lg">
-            <h3 className="text-4xl font-bold mb-6 text-[#f0b429]">EDUCATE</h3>
+            <h3 className="text-4xl font-bold mb-6">EDUCATE</h3>
             <p className="text-xl leading-relaxed">
               Learn technology and systems for the future of work.
             </p>
@@ -40,20 +40,15 @@ export function LearnWithTochii() {
         </div>
         {/* Summary Box */}
         <div className="max-w-4xl mx-auto bg-[#002147] text-[#f5e7c8] p-8 rounded-lg">
-          <div className="flex flex-col md:flex-row items-start md:items-center justify-between">
-            <div className="mb-6 md:mb-0 md:mr-8">
-              <h3 className="text-3xl font-bold mb-4">
-                INSPIRE · EDUCATE · EMPOWER
-              </h3>
-              <p className="text-xl">
-                Through content, community, and platforms, I'm dedicated to
-                helping the next generation of leaders find their path and make
-                an impact.
-              </p>
-            </div>
-            <div className="flex-shrink-0">
-              <img src="/Image.png" alt="Learn with Tochii logo" className="h-24 w-auto" />
-            </div>
+          <div className="text-center">
+            <h3 className="text-3xl font-bold mb-4">
+              INSPIRE · EDUCATE · EMPOWER
+            </h3>
+            <p className="text-xl">
+              Through content, community, and platforms, I'm dedicated to
+              helping the next generation of leaders find their path and make an
+              impact.
+            </p>
           </div>
         </div>
       </div>

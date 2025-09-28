@@ -8,7 +8,7 @@ export function YouTubeStats() {
             <Youtube className="h-8 w-8 text-red-600 mr-3" />
             <div>
               <h3 className="text-xl font-bold text-blue-900">Tochii</h3>
-              <p className="text-gray-600">2,735 subscribers</p>
+              <p className="text-gray-600">@Tochiistudio • 3.9k subscribers</p>
             </div>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
