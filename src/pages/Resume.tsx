@@ -191,7 +191,7 @@ export function Resume() {
               <div className="border-l-4 border-blue-900 pl-6 py-2">
                 <div className="flex flex-col md:flex-row md:items-center md:justify-between mb-2">
                   <h3 className="text-xl font-bold text-blue-900">
-                    HEAD OF AI PRODUCT (CONSULTANT)
+                    HEAD OF AI, PLATFORMS AND APIS
                   </h3>
                   <div className="flex items-center text-gray-600">
                     <Clock className="h-4 w-4 mr-1" />
@@ -200,24 +200,26 @@ export function Resume() {
                 </div>
                 <div className="flex items-center mb-4 text-gray-700">
                   <Building className="h-4 w-4 mr-1" />
-                  <span className="font-medium">
-                    AI in UK & Nigeria (AI SaaS)
-                  </span>
+                  <span className="font-medium">AI in Nigeria (AI SaaS)</span>
                   <span className="mx-2">•</span>
                   <MapPin className="h-4 w-4 mr-1" />
-                  <span>London, UK</span>
+                  <span>London, UK / Lagos, Nigeria</span>
                 </div>
                 <ul className="list-disc pl-5 space-y-2 text-gray-700">
                   <li>
-                    Lead cross-functional teams of product designers, AI/ML
-                    engineers, and project managers to deliver scalable AI tools
-                    for banks and education providers
+                    Lead cross-functional teams developing AI-powered platforms
+                    and APIs for enterprise clients in finance, education, and
+                    healthcare sectors
+                  </li>
+                  <li>
+                    Architected and launched a comprehensive API ecosystem
+                    enabling third-party integration with AI models, increasing
+                    platform adoption by 40%
                   </li>
                   <li>
                     Drive the development of SmartHR, an AI-powered recruitment
-                    solution, streamlining candidate evaluation, interview
-                    generation, and compensation benchmarking using OpenAI and
-                    proprietary datasets
+                    solution, implementing secure API gateways for data exchange
+                    between client systems and AI models
                   </li>
                   <li>
                     Spearhead the rollout of a STEM + AI curriculum for Stanbic
@@ -225,12 +227,14 @@ export function Resume() {
                     offline-first, multilingual delivery
                   </li>
                   <li>
-                    Defined technical product strategy and roadmap for AI
-                    integrations in HR and EdTech platforms
+                    Established API governance standards and documentation
+                    frameworks, reducing integration time by 60% and improving
+                    developer experience
                   </li>
                   <li>
-                    Directed implementation of a text-to-speech engine optimized
-                    for local accents to increase accessibility in rural schools
+                    Implemented robust platform security protocols including
+                    OAuth 2.0 and API key management to ensure data protection
+                    across all AI services
                   </li>
                 </ul>
               </div>

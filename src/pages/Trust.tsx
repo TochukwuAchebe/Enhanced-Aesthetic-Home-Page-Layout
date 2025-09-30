@@ -175,7 +175,7 @@ export function Trust() {
                 <Quote className="h-10 w-10 text-blue-200 absolute -top-4 -left-4" />
                 <div className="flex flex-col items-center mb-6">
                   <div className="w-24 h-24 rounded-full overflow-hidden mb-4">
-                    <img src="/Screenshot_2025-08-16_at_01.27.22.png" alt="Jedida" className="w-full h-full object-cover" />
+                    <img src="/IMG_8840.jpg" alt="Jedida" className="w-full h-full object-cover" />
                   </div>
                   <h3 className="text-xl font-bold text-blue-900">JEDIDA</h3>
                 </div>
@@ -197,7 +197,7 @@ export function Trust() {
                 <Quote className="h-10 w-10 text-blue-200 absolute -top-4 -left-4" />
                 <div className="flex flex-col items-center mb-6">
                   <div className="w-24 h-24 rounded-full overflow-hidden mb-4">
-                    <img src="/Screenshot_2025-08-16_at_01.27.22.png" alt="Chibuzo" className="w-full h-full object-cover" />
+                    <img src="/IMG_56DF32128CF8-1.jpg" alt="Chibuzo" className="w-full h-full object-cover" />
                   </div>
                   <h3 className="text-xl font-bold text-blue-900">CHIBUZO</h3>
                 </div>
