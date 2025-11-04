@@ -54,7 +54,7 @@ export function Trust() {
               committed to lifting others as they rise in their communities.
             </p>
             <div className="flex justify-center">
-              <img src="/9ADCAE90-D24D-4B3B-865C-00A5E58BEB35.png" alt="The Nwamaka Achebe Trust Logo" className="h-64 w-auto" />
+              <img src="/image.png" alt="The Nwamaka Achebe Trust Logo" className="h-64 w-auto object-contain" />
             </div>
           </div>
         </div>

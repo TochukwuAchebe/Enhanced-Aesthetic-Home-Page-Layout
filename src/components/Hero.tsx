@@ -26,7 +26,9 @@ export function Hero() {
         </div>
         <div className="md:w-1/2 flex justify-center">
           <div className="rounded-full overflow-hidden w-80 h-80 border-4 border-gray-200">
-            <img src="/0070_ColorInTechDojo_Catherine_210125_Original.jpg" alt="Tochukwu Achebe teaching and mentoring" className="w-full h-full object-cover object-center" loading="eager" />
+            <img src="/IMG_4084.jpg" alt="Tochukwu Achebe teaching and mentoring" className="w-full h-full object-cover object-center" style={{
+            filter: 'contrast(1.1) brightness(1.05) saturate(1.1)'
+          }} loading="eager" />
           </div>
         </div>
       </div>

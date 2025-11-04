@@ -6,19 +6,19 @@ export function Creator() {
     title: 'API AS A PRODUCT',
     subtitle: 'TURN YOUR API INTO A REAL PRODUCT',
     duration: '12:45',
-    image: "/Yellow_Modern_Mathematics_Lecture_Youtube_Thumbnail_%281%29.png",
+    image: 'https://i.ytimg.com/vi/Ynb9g594SF4/maxresdefault.jpg',
     link: 'https://youtu.be/Ynb9g594SF4'
   }, {
     title: 'STOP BREAKING YOUR APIS',
     subtitle: 'THE GUIDE TO VERSIONING & DEPRECATION',
     duration: '8:32',
-    image: "/Yellow_Modern_Mathematics_Lecture_Youtube_Thumbnail_%282%29.png",
+    image: 'https://i.ytimg.com/vi/8zh0hGZwylc/maxresdefault.jpg',
     link: 'https://youtu.be/8zh0hGZwylc'
   }, {
     title: 'CHOOSING THE RIGHT API',
     subtitle: 'API SPECIFICATION FOR YOUR PROJECT',
     duration: '15:20',
-    image: "/Colorful_Bright_and_Bold_Podcast_YouTube_Thumbnail.png.png",
+    image: 'https://i.ytimg.com/vi/1WL_qlG-Low/maxresdefault.jpg',
     link: 'https://youtu.be/1WL_qlG-Low'
   }];
   const articles = [{
