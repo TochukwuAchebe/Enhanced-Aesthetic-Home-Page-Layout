@@ -252,7 +252,7 @@ export function CreatingForFuture() {
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6 max-w-5xl mx-auto">
             <div className="bg-white rounded-lg shadow-md overflow-hidden">
-              <img src="/Colorful_Bright_and_Bold_Podcast_YouTube_Thumbnail_%288%29.png" alt="Faith and Technology Leadership" className="w-full h-40 object-cover" />
+              <img src="https://images.unsplash.com/photo-1519389950473-47ba0277781c?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80" alt="Faith and Technology Leadership" className="w-full h-40 object-cover" />
               <div className="p-6">
                 <div className="flex items-center mb-2">
                   <Tag className="h-4 w-4 text-blue-900 mr-1" />
@@ -296,7 +296,7 @@ export function CreatingForFuture() {
               </div>
             </div>
             <div className="bg-white rounded-lg shadow-md overflow-hidden">
-              <img src="/Colorful_Bright_and_Bold_Podcast_YouTube_Thumbnail_%281%29.png" alt="From Technical Expert to Product Leader" className="w-full h-40 object-cover" />
+              <img src="/Colorful_Bright_and_Bold_Podcast_YouTube_Thumbnail.png.png" alt="From Technical Expert to Product Leader" className="w-full h-40 object-cover" />
               <div className="p-6">
                 <div className="flex items-center mb-2">
                   <Tag className="h-4 w-4 text-blue-900 mr-1" />

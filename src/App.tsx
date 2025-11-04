@@ -8,6 +8,7 @@ import { Blog } from './pages/Blog';
 import { Creator } from './pages/Creator';
 import { Resume } from './pages/Resume';
 import { Trust } from './pages/Trust';
+import { Fellowship } from './pages/Fellowship';
 import { ThisIs30 } from './pages/blogposts/ThisIs30';
 import { AcceptingPayments } from './pages/blogposts/AcceptingPayments';
 import { WhatIsAnAPI } from './pages/blogposts/WhatIsAnAPI';
@@ -29,6 +30,7 @@ export function App() {
           <Route path="/creator" element={<Creator />} />
           <Route path="/resume" element={<Resume />} />
           <Route path="/trust" element={<Trust />} />
+          <Route path="/fellowship" element={<Fellowship />} />
           <Route path="/blog/this-is-30" element={<ThisIs30 />} />
           <Route path="/blog/accepting-payments" element={<AcceptingPayments />} />
           <Route path="/blog/what-is-an-api" element={<WhatIsAnAPI />} />

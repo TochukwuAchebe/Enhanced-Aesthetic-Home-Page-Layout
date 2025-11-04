@@ -1,6 +1,8 @@
-import React, { memo, Component } from 'react';
+import React, { memo } from 'react';
 import { Calendar, Clock, Tag, ArrowLeft, ChevronRight } from 'lucide-react';
 import { Link } from 'react-router-dom';
+import { Newsletter } from '../../components/Newsletter';
+import { ShareButtons } from '../../components/ShareButtons';
 export function ThisIs30() {
   return <main className="flex-grow bg-white">
       {/* Hero Section */}
@@ -337,25 +339,7 @@ export function ThisIs30() {
                   realized.
                 </p>
               </div>
-              <div className="border-t border-gray-200 pt-8 mt-12">
-                <h3 className="text-xl font-bold text-blue-900 mb-4">
-                  Share this article
-                </h3>
-                <div className="flex space-x-4">
-                  <a href={`https://www.linkedin.com/sharing/share-offsite/?url=${encodeURIComponent(window.location.href)}&title=${encodeURIComponent('This is 30, Tobechukwu')}`} target="_blank" rel="noopener noreferrer" className="bg-blue-900 text-white px-4 py-2 rounded-md hover:bg-blue-800 transition-colors">
-                    Share on LinkedIn
-                  </a>
-                  <a href={`https://twitter.com/intent/tweet?url=${encodeURIComponent(window.location.href)}&text=${encodeURIComponent('This is 30, Tobechukwu')}`} target="_blank" rel="noopener noreferrer" className="bg-blue-900 text-white px-4 py-2 rounded-md hover:bg-blue-800 transition-colors">
-                    Share on Twitter
-                  </a>
-                  <button onClick={() => {
-                  navigator.clipboard.writeText(window.location.href);
-                  alert('Link copied to clipboard!');
-                }} className="border border-blue-900 text-blue-900 px-4 py-2 rounded-md hover:bg-blue-50 transition-colors">
-                    Copy Link
-                  </button>
-                </div>
-              </div>
+              <ShareButtons title="This is 30, Tobechukwu" />
             </div>
           </div>
         </div>
@@ -436,26 +420,6 @@ export function ThisIs30() {
           </div>
         </div>
       </section>
-      {/* Newsletter Section */}
-      <section className="py-16 bg-white">
-        <div className="container mx-auto px-4 max-w-4xl">
-          <div className="bg-blue-900 rounded-lg shadow-md p-8 text-center text-white">
-            <h2 className="text-3xl font-bold mb-4">
-              Subscribe to My Newsletter
-            </h2>
-            <p className="text-lg mb-6 max-w-2xl mx-auto">
-              Get the latest articles, insights, and resources on faith,
-              technology, leadership and personal growth delivered straight to
-              your inbox.
-            </p>
-            <div className="flex flex-col md:flex-row gap-4 max-w-xl mx-auto">
-              <input type="email" placeholder="Your email address" className="flex-grow px-4 py-3 rounded-md text-gray-900 focus:outline-none" />
-              <button className="bg-white text-blue-900 font-bold px-6 py-3 rounded-md hover:bg-blue-50 transition-colors">
-                Subscribe
-              </button>
-            </div>
-          </div>
-        </div>
-      </section>
+      <Newsletter />
     </main>;
 }

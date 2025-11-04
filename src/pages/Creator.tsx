@@ -1,17 +1,25 @@
-import React from 'react';
-import { Youtube, BookOpen, Users, Newspaper, MessageSquare, Video, ExternalLink, ChevronRight } from 'lucide-react';
+import React, { lazy } from 'react';
+import { Youtube, BookOpen, Users, Newspaper, MessageSquare, Video, ChevronRight, ExternalLink } from 'lucide-react';
 import { Link } from 'react-router-dom';
 export function Creator() {
   const videos = [{
     title: 'API AS A PRODUCT',
     subtitle: 'TURN YOUR API INTO A REAL PRODUCT',
     duration: '12:45',
-    image: "/Yellow_Modern_Mathematics_Lecture_Youtube_Thumbnail_%281%29.png"
+    image: "/Yellow_Modern_Mathematics_Lecture_Youtube_Thumbnail_%281%29.png",
+    link: 'https://youtu.be/Ynb9g594SF4'
   }, {
     title: 'STOP BREAKING YOUR APIS',
     subtitle: 'THE GUIDE TO VERSIONING & DEPRECATION',
     duration: '8:32',
-    image: "/Yellow_Modern_Mathematics_Lecture_Youtube_Thumbnail_%282%29.png"
+    image: "/Yellow_Modern_Mathematics_Lecture_Youtube_Thumbnail_%282%29.png",
+    link: 'https://youtu.be/8zh0hGZwylc'
+  }, {
+    title: 'CHOOSING THE RIGHT API',
+    subtitle: 'API SPECIFICATION FOR YOUR PROJECT',
+    duration: '15:20',
+    image: "/Colorful_Bright_and_Bold_Podcast_YouTube_Thumbnail.png.png",
+    link: 'https://youtu.be/1WL_qlG-Low'
   }];
   const articles = [{
     title: 'The Seed, the Tool, and the Steward',
@@ -78,7 +86,7 @@ export function Creator() {
               </div>
             </div>
             <div className="md:w-1/2">
-              <img src="/IMG_2307.png" alt="Tochii's YouTube Studio showing API educational content" className="rounded-lg shadow-lg w-full h-auto" />
+              <img src="/IMG_2307.png" alt="Tochii's YouTube Studio showing API educational content" className="rounded-lg shadow-lg w-full h-auto" loading="lazy" />
             </div>
           </div>
         </div>
@@ -160,10 +168,12 @@ export function Creator() {
             </div>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-            {videos.map((video, index) => <div key={index} className="group cursor-pointer transform hover:scale-105 transition-transform duration-300">
+            {videos.map((video, index) => <a key={index} href={video.link} target="_blank" rel="noopener noreferrer" className="group cursor-pointer transform hover:scale-105 transition-transform duration-300">
                 <div className="bg-white rounded-xl overflow-hidden shadow-md hover:shadow-lg transition-shadow duration-300">
-                  <div className="relative aspect-video">
-                    <img src={video.image} alt={video.title} className="w-full h-full object-cover" />
+                  <div className="relative w-full" style={{
+                paddingBottom: '56.25%'
+              }}>
+                    <img src={video.image} alt={video.title} className="absolute top-0 left-0 w-full h-full object-cover" loading="lazy" />
                     <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end">
                       <div className="p-4 w-full">
                         <div className="flex items-center justify-between">
@@ -189,39 +199,7 @@ export function Creator() {
                       </p>}
                   </div>
                 </div>
-              </div>)}
-            {/* Video Statistics Card */}
-            <div className="bg-gray-50 rounded-xl overflow-hidden shadow-md p-6">
-              <div className="flex items-center mb-6">
-                <Youtube className="h-8 w-8 text-red-600 mr-3" />
-                <div>
-                  <h3 className="text-xl font-bold text-blue-900">Tochii</h3>
-                  <p className="text-gray-600">
-                    @Tochiistudio • 3.9k subscribers
-                  </p>
-                </div>
-              </div>
-              <div className="space-y-4">
-                <div className="bg-white p-4 rounded-lg shadow-sm">
-                  <p className="text-gray-600 mb-1">Total Views</p>
-                  <p className="text-2xl font-bold text-blue-900">34.4K+</p>
-                </div>
-                <div className="bg-white p-4 rounded-lg shadow-sm">
-                  <p className="text-gray-600 mb-1">Watch Time</p>
-                  <p className="text-2xl font-bold text-blue-900">450+ hours</p>
-                </div>
-                <div className="bg-white p-4 rounded-lg shadow-sm">
-                  <p className="text-gray-600 mb-1">Videos</p>
-                  <p className="text-2xl font-bold text-blue-900">25+</p>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div className="mt-10 text-center">
-            <a href="https://www.youtube.com/@TochiiStudio" target="_blank" rel="noopener noreferrer" className="inline-flex items-center text-blue-900 font-medium hover:text-blue-700 transition-colors">
-              View All Videos
-              <ChevronRight className="h-5 w-5 ml-1" />
-            </a>
+              </a>)}
           </div>
         </div>
       </section>
@@ -246,7 +224,9 @@ export function Creator() {
           </div>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {articles.map((article, index) => <div key={index} className="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-lg transition-shadow">
-                <img src={article.image} alt={article.title} className="w-full h-48 object-cover" />
+                <div className="relative w-full h-48 overflow-hidden">
+                  <img src={article.image} alt={article.title} className="w-full h-full object-cover" loading="lazy" />
+                </div>
                 <div className="p-6">
                   <div className="mb-2">
                     <span className="bg-blue-100 text-blue-900 text-xs px-2 py-1 rounded-full">
@@ -281,7 +261,9 @@ export function Creator() {
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-10 mb-12">
             <div>
-              <img src="/IMG_4292.jpg" alt="Tochii presenting on APIs in modern software development at ProductDive conference" className="rounded-lg shadow-md w-full h-auto object-cover mb-6" />
+              <div className="relative w-full h-64 md:h-80 overflow-hidden rounded-lg shadow-md mb-6">
+                <img src="/IMG_4292.jpg" alt="Tochii presenting on APIs in modern software development at ProductDive conference" className="w-full h-full object-cover" loading="lazy" />
+              </div>
               <h3 className="text-2xl font-bold text-blue-900 mb-4">
                 CONFERENCE SPEAKING
               </h3>
@@ -293,7 +275,9 @@ export function Creator() {
               </p>
             </div>
             <div>
-              <img src="/IMG_4293.jpg" alt="Tochii speaking and engaging with audience at ProductDive event" className="rounded-lg shadow-md w-full h-auto object-cover mb-6" />
+              <div className="relative w-full h-64 md:h-80 overflow-hidden rounded-lg shadow-md mb-6">
+                <img src="/IMG_4293.jpg" alt="Tochii speaking and engaging with audience at ProductDive event" className="w-full h-full object-cover" loading="lazy" />
+              </div>
               <h3 className="text-2xl font-bold text-blue-900 mb-4">
                 INTERACTIVE WORKSHOPS
               </h3>
@@ -308,7 +292,9 @@ export function Creator() {
           {/* Merged Image Gallery */}
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-12">
             <div className="bg-white rounded-lg shadow-md overflow-hidden">
-              <img src="/0079_ColorinTechDojo2_AT_Catherine_20082024_Original.jpg" alt="Tochii leading a workshop at Tech event" className="w-full h-64 object-cover object-center" />
+              <div className="relative w-full h-64 overflow-hidden">
+                <img src="/0079_ColorinTechDojo2_AT_Catherine_20082024_Original.jpg" alt="Tochii leading a workshop at Tech event" className="w-full h-full object-cover object-center" loading="lazy" />
+              </div>
               <div className="p-4">
                 <h4 className="font-bold text-blue-900">Tech Workshop</h4>
                 <p className="text-gray-700 text-sm">
@@ -318,7 +304,9 @@ export function Creator() {
               </div>
             </div>
             <div className="bg-white rounded-lg shadow-md overflow-hidden">
-              <img src="/0070_ColorInTechDojo_Catherine_210125_Original.jpg" alt="Tochii teaching at Color In Tech event" className="w-full h-64 object-cover object-center" />
+              <div className="relative w-full h-64 overflow-hidden">
+                <img src="/0070_ColorInTechDojo_Catherine_210125_Original.jpg" alt="Tochii teaching at Color In Tech event" className="w-full h-full object-cover object-center" loading="lazy" />
+              </div>
               <div className="p-4">
                 <h4 className="font-bold text-blue-900">Mentorship Sessions</h4>
                 <p className="text-gray-700 text-sm">
@@ -327,7 +315,9 @@ export function Creator() {
               </div>
             </div>
             <div className="bg-white rounded-lg shadow-md overflow-hidden">
-              <img src="/DD1F9920-FDE3-472E-B45D-F33CE32B5344.jpg" alt="Tochii at a professional speaking engagement" className="w-full h-64 object-cover object-center" />
+              <div className="relative w-full h-64 overflow-hidden">
+                <img src="/DD1F9920-FDE3-472E-B45D-F33CE32B5344.jpg" alt="Tochii at a professional speaking engagement" className="w-full h-full object-cover object-center" loading="lazy" />
+              </div>
               <div className="p-4">
                 <h4 className="font-bold text-blue-900">Leadership Talks</h4>
                 <p className="text-gray-700 text-sm">

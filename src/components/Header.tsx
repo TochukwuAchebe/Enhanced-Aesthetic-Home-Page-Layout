@@ -44,6 +44,13 @@ export function Header() {
               </NavLink>
             </li>
             <li>
+              <NavLink to="/fellowship" className={({
+              isActive
+            }) => isActive ? 'text-blue-900 font-semibold' : 'text-gray-700 hover:text-blue-900 transition-colors'}>
+                Fellowship
+              </NavLink>
+            </li>
+            <li>
               <NavLink to="/resume" className={({
               isActive
             }) => isActive ? 'text-blue-900 font-semibold' : 'text-gray-700 hover:text-blue-900 transition-colors'}>
