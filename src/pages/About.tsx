@@ -29,7 +29,7 @@ export function About() {
                 </p>
               </div>
               <div className="flex space-x-4 mt-8">
-                <a href="mailto:achebetochukwu@gmail.com" className="flex items-center bg-blue-900 text-white px-6 py-3 rounded-md hover:bg-blue-800 transition-colors">
+                <a href="mailto:contact@tochukwuachebe.com" className="flex items-center bg-blue-900 text-white px-6 py-3 rounded-md hover:bg-blue-800 transition-colors">
                   <Mail className="h-5 w-5 mr-2" />
                   <span>Email Me</span>
                 </a>
@@ -584,9 +584,9 @@ export function About() {
             leadership, or looking for mentorship — I'd love to hear from you.
           </p>
           <div className="bg-white p-8 rounded-lg shadow-md text-center">
-            <a href="mailto:achebetochukwu@gmail.com" className="inline-flex items-center bg-blue-900 text-white px-6 py-3 rounded-md hover:bg-blue-800 transition-colors">
+            <a href="mailto:contact@tochukwuachebe.com" className="inline-flex items-center bg-blue-900 text-white px-6 py-3 rounded-md hover:bg-blue-800 transition-colors">
               <Mail className="h-5 w-5 mr-2" />
-              Email me at achebetochukwu@gmail.com
+              Email me at contact@tochukwuachebe.com
             </a>
           </div>
         </div>

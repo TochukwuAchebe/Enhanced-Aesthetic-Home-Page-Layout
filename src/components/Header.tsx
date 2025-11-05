@@ -67,7 +67,7 @@ export function Header() {
           </ul>
         </nav>
         <div className="flex items-center space-x-6">
-          <a href="mailto:achebetochukwu@gmail.com" className="flex items-center text-gray-700 hover:text-blue-900 transition-colors">
+          <a href="mailto:contact@tochukwuachebe.com" className="flex items-center text-gray-700 hover:text-blue-900 transition-colors">
             <Mail className="h-5 w-5 mr-1" />
             <span>Email</span>
           </a>

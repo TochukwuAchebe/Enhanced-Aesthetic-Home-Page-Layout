@@ -8,7 +8,7 @@ export function Footer() {
             Tochii Achebe
           </h2>
           <div className="flex justify-center space-x-4 mb-4">
-            <a href="mailto:achebetochukwu@gmail.com" className="flex items-center text-gray-700 hover:text-blue-900 transition-colors">
+            <a href="mailto:contact@tochukwuachebe.com" className="flex items-center text-gray-700 hover:text-blue-900 transition-colors">
               <Mail className="h-5 w-5 mr-1" />
               <span>Email</span>
             </a>

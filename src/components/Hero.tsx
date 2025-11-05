@@ -16,7 +16,7 @@ export function Hero() {
             unlock growth through APIs, partnerships, and storytelling.
           </p>
           <div className="flex flex-wrap gap-4">
-            <a href="mailto:achebetochukwu@gmail.com" className="bg-blue-900 text-white px-6 py-3 rounded-md hover:bg-blue-800 transition-colors cursor-pointer">
+            <a href="mailto:contact@tochukwuachebe.com" className="bg-blue-900 text-white px-6 py-3 rounded-md hover:bg-blue-800 transition-colors cursor-pointer">
               Work With Me
             </a>
             <a href="https://www.youtube.com/@TochiiStudio" target="_blank" rel="noopener noreferrer" className="border border-blue-900 text-blue-900 px-6 py-3 rounded-md hover:bg-blue-50 transition-colors cursor-pointer">

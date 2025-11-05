@@ -333,7 +333,7 @@ export function Trust() {
                 <h3 className="text-2xl font-bold text-blue-900 mb-6 text-center">
                   APPLICATION FORM
                 </h3>
-                <form action="https://formspree.io/f/achebetochukwu6@gmail.com" method="POST" className="space-y-6">
+                <form action="https://formspree.io/f/contact@tochukwuachebe.com" method="POST" className="space-y-6">
                   <div>
                     <label className="block text-gray-800 font-medium mb-1">
                       Name{' '}
@@ -475,7 +475,7 @@ export function Trust() {
               hear from you.
             </p>
             <div className="flex flex-col md:flex-row justify-center items-center gap-6">
-              <a href="mailto:achebetochukwu@gmail.com" className="flex items-center bg-blue-900 text-white px-6 py-3 rounded-md hover:bg-blue-800 transition-colors">
+              <a href="mailto:contact@tochukwuachebe.com" className="flex items-center bg-blue-900 text-white px-6 py-3 rounded-md hover:bg-blue-800 transition-colors">
                 <Mail className="h-5 w-5 mr-2" />
                 <span>Email Us</span>
               </a>

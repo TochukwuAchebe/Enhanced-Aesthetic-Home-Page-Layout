@@ -1149,8 +1149,8 @@ export function Fellowship() {
               <div className="mt-6 pt-6 border-t border-gray-200">
                 <p className="text-gray-700">
                   <span className="font-bold">Support:</span>{' '}
-                  <a href="mailto:achebetochukwu@gmail.com" className="text-blue-900 hover:text-blue-700 underline">
-                    achebetochukwu@gmail.com
+                  <a href="mailto:Billing@tochukwuachebe.com" className="text-blue-900 hover:text-blue-700 underline">
+                    Billing@tochukwuachebe.com
                   </a>
                 </p>
               </div>
@@ -1184,8 +1184,8 @@ export function Fellowship() {
               </div>
               <p className="text-lg">
                 To discuss partnership or sponsorship opportunities, email{' '}
-                <a href="mailto:achebetochukwu@gmail.com" className="underline font-bold hover:text-blue-200">
-                  achebetochukwu@gmail.com
+                <a href="mailto:contact@tochukwuachebe.com" className="underline font-bold hover:text-blue-200">
+                  contact@tochukwuachebe.com
                 </a>{' '}
                 with the subject "Corporate Partnership – Learn with Tochii
                 Fellowship."
@@ -1263,8 +1263,8 @@ export function Fellowship() {
                 </h3>
                 <form action="https://formspree.io/f/mnnokbeq" method="POST" className="space-y-6">
                   <input type="hidden" name="_subject" value="New Fellowship Application" />
-                  <input type="hidden" name="_replyto" value="achebetochukwu6@gmail.com" />
-                  <input type="hidden" name="_to" value="achebetochukwu6@gmail.com" />
+                  <input type="hidden" name="_replyto" value="contact@tochukwuachebe.com" />
+                  <input type="hidden" name="_to" value="contact@tochukwuachebe.com" />
                   <div>
                     <label className="block text-gray-800 font-medium mb-1">
                       Name{' '}
@@ -1421,15 +1421,15 @@ export function Fellowship() {
                 <h3 className="text-2xl font-bold mb-4">Tochukwu Achebe</h3>
                 <p className="text-xl mb-4">API & Platform Product Leader</p>
                 <div className="space-y-3">
-                  <a href="mailto:achebetochukwu6@gmail.com" className="flex items-center justify-center text-lg hover:text-blue-200 transition-colors">
+                  <a href="mailto:contact@tochukwuachebe.com" className="flex items-center justify-center text-lg hover:text-blue-200 transition-colors">
                     <Mail className="h-5 w-5 mr-2" />
-                    achebetochukwu6@gmail.com
+                    contact@tochukwuachebe.com
                   </a>
                   <p className="text-lg">🌐 tochukwuachebe.com</p>
                 </div>
               </div>
               <div className="flex flex-col sm:flex-row justify-center gap-4">
-                <a href="mailto:achebetochukwu@gmail.com?subject=Fellowship Application" className="bg-white text-blue-900 px-8 py-4 rounded-md hover:bg-blue-50 transition-colors font-bold text-lg inline-flex items-center justify-center">
+                <a href="mailto:contact@tochukwuachebe.com?subject=Fellowship Application" className="bg-white text-blue-900 px-8 py-4 rounded-md hover:bg-blue-50 transition-colors font-bold text-lg inline-flex items-center justify-center">
                   <Mail className="h-5 w-5 mr-2" />
                   Apply Now
                 </a>
