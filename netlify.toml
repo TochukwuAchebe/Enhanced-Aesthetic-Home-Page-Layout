@@ -1,7 +1,3 @@
-// Source - https://stackoverflow.com/questions/55990467/catch-all-redirect-for-create-react-app-in-netlify
-// Posted by talves
-// Retrieved 05/11/2025, License - CC-BY-SA 4.0
-
 [[redirects]]
   from = "/*"
   to = "/index.html"
