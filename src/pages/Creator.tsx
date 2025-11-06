@@ -417,14 +417,17 @@ export function Creator() {
               LEARN WITH TOCHII NEWSLETTER
             </h3>
             <p className="text-lg mb-6 max-w-2xl mx-auto">
-              Get weekly insights, resources, and opportunities delivered
-              straight to your inbox.
+              Join my Substack newsletter for weekly insights, deep dives on API
+              design, platform strategy, career development, and exclusive
+              content delivered straight to your inbox.
             </p>
-            <div className="flex flex-col md:flex-row gap-4 max-w-xl mx-auto">
-              <input type="email" placeholder="Your email address" className="flex-grow px-4 py-3 rounded-md text-gray-900 focus:outline-none" />
-              <button className="bg-white text-blue-900 font-bold px-6 py-3 rounded-md hover:bg-blue-50 transition-colors">
-                Subscribe
-              </button>
+            <div className="flex flex-col items-center gap-4 max-w-xl mx-auto">
+              <a href="https://tochiiachebe.substack.com/" target="_blank" rel="noopener noreferrer" className="w-full md:w-auto bg-white text-blue-900 font-bold px-8 py-3 rounded-md hover:bg-blue-50 transition-colors">
+                Subscribe on Substack
+              </a>
+              <a href="https://tochiiachebe.substack.com/" target="_blank" rel="noopener noreferrer" className="text-white underline hover:text-blue-200 transition-colors text-sm">
+                Visit Newsletter Archive
+              </a>
             </div>
           </div>
         </div>

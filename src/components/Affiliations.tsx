@@ -16,7 +16,7 @@ export function Affiliations() {
             </p>
           </div>
           <div className="text-center">
-            <img src="/foundation-logo.jpeg" alt="The Nwamaka Achebe Trust" className="h-32 mx-auto mb-3 object-contain" />
+            <img src="/image.png" alt="The Nwamaka Achebe Trust" className="h-32 mx-auto mb-3 object-contain" />
             <p className="text-gray-700 font-medium">
               Founder, The Nwa-Amaka Achebe Trust
             </p>
