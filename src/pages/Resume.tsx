@@ -187,7 +187,7 @@ export function Resume() {
               <div className="border-l-4 border-blue-900 pl-6 py-2">
                 <div className="flex flex-col md:flex-row md:items-center md:justify-between mb-2">
                   <h3 className="text-xl font-bold text-blue-900">
-                    AI CONSULTING LEAD — NIGERIA & UK (AMAKORA GROUP)
+                    AI PRODUCT CONSULTING LEAD — NIGERIA & UK (AMAKORA GROUP)
                   </h3>
                   <div className="flex items-center text-gray-600">
                     <Clock className="h-4 w-4 mr-1" />
