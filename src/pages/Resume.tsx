@@ -19,10 +19,6 @@ export function Resume() {
               <Mail className="h-5 w-5 mr-2" />
               <span>achebetochukwu@gmail.com</span>
             </div>
-            <div className="flex items-center">
-              <Phone className="h-5 w-5 mr-2" />
-              <span>+44 7943641562</span>
-            </div>
           </div>
           <div className="mt-8">
             <a href="https://drive.google.com/file/d/1LI9AUHy4AN75lJ4_2rtUmLL20lQkbLdu/view?usp=drivesdk" target="_blank" rel="noopener noreferrer" className="inline-flex items-center bg-white text-blue-900 px-6 py-3 rounded-md hover:bg-blue-50 transition-colors">
@@ -191,7 +187,7 @@ export function Resume() {
               <div className="border-l-4 border-blue-900 pl-6 py-2">
                 <div className="flex flex-col md:flex-row md:items-center md:justify-between mb-2">
                   <h3 className="text-xl font-bold text-blue-900">
-                    HEAD OF AI, PLATFORMS AND APIS
+                    AI CONSULTING LEAD — NIGERIA & UK (AMAKORA GROUP)
                   </h3>
                   <div className="flex items-center text-gray-600">
                     <Clock className="h-4 w-4 mr-1" />
@@ -200,7 +196,7 @@ export function Resume() {
                 </div>
                 <div className="flex items-center mb-4 text-gray-700">
                   <Building className="h-4 w-4 mr-1" />
-                  <span className="font-medium">AI in Nigeria (AI SaaS)</span>
+                  <span className="font-medium">Amakora Group</span>
                   <span className="mx-2">•</span>
                   <MapPin className="h-4 w-4 mr-1" />
                   <span>London, UK / Lagos, Nigeria</span>
