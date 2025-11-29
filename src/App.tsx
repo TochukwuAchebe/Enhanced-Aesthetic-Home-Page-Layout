@@ -2,6 +2,7 @@ import React from 'react';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import { Header } from './components/Header';
 import { Footer } from './components/Footer';
+import { AmakoraBanner } from './components/AmakoraBanner';
 import { Home } from './pages/Home';
 import { About } from './pages/About';
 import { Blog } from './pages/Blog';
@@ -43,6 +44,7 @@ export function App() {
           <Route path="/blog/seed-tool-steward" element={<SeedToolSteward />} />
         </Routes>
         <Footer />
+        <AmakoraBanner />
       </div>
     </BrowserRouter>;
 }
